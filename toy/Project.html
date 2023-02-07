@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<style type= "text/css">
+	html, body {
+		margin: 0px;
+		height: 100%;
+	}
+	.head {
+		height: 111px;
+	}
+	
+	.cropped{
+		width: 240px; 
+		height: 44px; 
+		overflow: hidden;
+		margin: 0px auto;
+		
+	}
+	/*  
+	input {
+		width: 30%;
+		height: 35px;
+		position: relative;
+		background-color:#5#6#7;
+	}
+	*/
+</style>
+<body>
+	<header style="margin: 0px 15px; height: 31px; padding: 59px 0px 20px; text-align: center;">
+		<div class= "cropped">
+		
+			<img width="240px" margin= "0px 228.5px;" src= "../img/Naver.png" >
+		
+		</div>
+	</header>
+	<div style="margin: 0px auto; width: 460px; height: 75px;">
+		<h3 style="margin: 26px 0px 8px; height:16px;">
+			<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">아이디</label>
+		</h3>
+		<div>
+			<input style= "margin-top:7px; padding: 10px 110px 10px 14px; border: 1px solid lightgray; width: 334px; height: 29px;" name="id" type="text" id="id" >
+			<span style="font-size: 15px; font-family: Dotum,'돋움',Helvetica,sans-serif;color: #8E8E8E; position: relative; left:365px; bottom: 36px;">@naver.com</span>
+		</div>
+	</div>
+	<div style="margin: 0px auto; width: 460px; margin-top:19px; margin-bottom: 8px;">
+		<div style="height: 75px;">
+			<h3 style="margin: 15px 0px 8px; height:16px;">
+				<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">비밀번호</label>
+			</h3>
+			<input style= "margin-top:7px; padding: 10px 110px 10px 14px; border:1px solid lightgray; width: 334px; height:29px;" type="password" name="pw" id="pw">
+			<span style="display:inline-block; position:relative; left:422px; bottom:39px; width:24px; height:24px; overflow:hidden;">
+				<img width="125px" height="auto" src="../img/locks.png">
+			</span>
+		</div>
+		<div style="width: 462px; height: 75px;">
+			<h3 style="margin-bottom: 8px; height:16px;">
+				<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">비밀번호 재확인</label>
+			</h3>
+			<input style="margin-top:7px; padding: 10px 110px 10px 14px; border: 1px solid lightgray; width: 334px; height: 29px;" type="password" id="repw" >
+			<span style="display:inline-block; position:relative; left:420px; bottom:39px; width:24px; height:24px; overflow:hidden;">
+				<img width="125px" height="auto" src="../img/locks.png" style="position: relative; right:24px;">
+			</span>
+		</div>
+	</div>
+
+		<div style="width: 460px; height: 75px; margin: 0px auto;">
+			<h3 style="margin-top:38px; margin-bottom: 8px; height:16px;">
+				<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif; ">이름</label>
+			</h3>
+			<input style= "margin-top:8px; padding: 10px 110px 10px 14px; border: 1px solid lightgray; width: 334px; height: 29px;">
+		</div>
+		
+		<div style="margin: 0px auto; width: 460px; height: 75px; background-color: #5#6#7;">
+			<h3 style= "margin-bottom:8px; height:16px;">
+				<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">생년월일</label>
+			</h3>
+			<div style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif; width: 460px; margin-bottom: 8px;">
+				<input style="border:1px solid lightgray; width: 119.69px; height:27px; padding:11px 14px;" type="text" name="year" id="year" placeholder="년(4자)">
+				<select style="border:1px solid lightgray; width:149.69px; height:51px; padding:11px 14px;" name="mon" id="mon">
+					<option selected>월</option>
+				</select>
+				<input style="border:1px solid lightgray; width:119.69px; height:27px; padding:11px 14px;" type="text" name="year" id="year" placeholder="일">
+			</div>
+			<div style= "font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif; width: 460px; height: 75px; ">
+				<h3 style="margin:19px 0px 8px; height:16px;">
+					<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">성별</label>
+						<select style= "font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif; border:1px solid lightgray; width:460px; height:51px; padding:11px 14px; margin-top:6px;">
+							<option selected>성별</option>
+						</select>
+				</h3>
+			</div>
+			<div style="width: 460px; height: 75px; margin: 0px auto;">
+				<h3 style="margin:15px 0px 8px; height:16px;">
+					<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif;">본인 확인 이메일</label>
+					<label style="font-size:12px; font-family:Dotum,'돋움',Helvetica,sans-serif; color:#8E8E8E;">(선택)</label>
+					
+				</h3>
+				<input style= "padding: 10px 110px 10px 14px; border: 1px solid lightgray; width: 334px; height: 29px; margin-top:3px;">
+
+			</div>
+			<div style="height: 200px;">
+				<div style="width: 460px; height: 75px; margin: 0px auto;">
+					<h3 style="margin-bottom: 8px; height:16px;">
+						<label style="font-size: 14px; font-family: Dotum,'돋움',Helvetica,sans-serif; ">휴대전화</label>
+						<select style= "font-size: 15px; font-family: Dotum,'돋움',Helvetica,sans-serif; border:1px solid lightgray; width:460px; height:51px; padding: 10px 7px 10px 14px; margin-top:1px;">
+							<option selected>대한민국 +82</option>
+						</select>
+						<input style= "font-size:12px; font-family: Dotum,'돋움',Helvetica,sans-serif; padding: 10px 15px 10px 14px; margin-top:10px; border: 1px solid lightgray; width: 304px; height: 29px;" placeholder="전화번호 입력">
+							<div style="float: right; padding:17px 0px; margin-top:10px; width:115px; height:17px; background-color: #03C75A; text-align: center; color:white; font-size:15px; font-family: Dotum,'돋움',Helvetica,sans-serif;">
+								<div class="btn" style=" "id="hbtn" >인증번호 받기</div>
+							</div>
+						<input style= "font-size:12px; font-family: Dotum,'돋움',Helvetica,sans-serif; padding: 10px 14px; margin:10px 0px 0px; border: 1px solid lightgray; width: 430px; height: 29px; display: inline-block;" placeholder="인증번호 입력하세요">
+					</h3>
+				</div>
+			</div>
+			<div style="margin-top:30px; padding:15px 0px; width:460px; margin: 0px auto; text-align: center; color:white;">
+				<div class="btn" style="background-color:#03C75A; height:53px; font-size:18px; font-family: Dotum,'돋움',Helvetica,sans-serif; font-weight: bold; line-height: 300%;" id= "hbtn" >가입하기</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
